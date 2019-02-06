@@ -85,6 +85,3 @@ if __name__ == '__main__':
     scores = gt == pred_labels
     score = np.mean(scores)
     print "accuracy: %f" % score
-
-
-

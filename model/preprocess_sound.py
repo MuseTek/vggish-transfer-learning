@@ -1,8 +1,8 @@
 from __future__ import division
 
 import numpy as np
-from sound import mel_features
-from sound import vggish_params
+import mel_features
+import vggish_params
 import resampy
 
 def preprocess_sound(data, sample_rate):
@@ -51,5 +51,3 @@ def preprocess_sound(data, sample_rate):
       window_length=example_window_length,
       hop_length=example_hop_length)
   return log_mel_examples
-
-
