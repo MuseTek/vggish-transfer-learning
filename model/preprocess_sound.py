@@ -1,8 +1,8 @@
 from __future__ import division
 
 import numpy as np
-import mel_features
-import vggish_params
+import model.mel_features
+import model.vggish_params
 import resampy
 
 def preprocess_sound(data, sample_rate):
